@@ -1,0 +1,20 @@
+{
+    "name": "fedora_38/docker-origin",
+    "type": "project",
+    "authors": [
+        {
+            "name": "yura kholoimov",
+            "email": "yurakholoimov@ya.ru"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "App\\": "public/"
+        }
+    },
+    "require": {
+        "symfony/http-foundation": "^5.3",
+        "symfony/routing": "^5.3"
+    }
+}
