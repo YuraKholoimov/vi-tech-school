@@ -1,4 +1,4 @@
-FROM php:7.4.6-fpm
+FROM php:8.0.0
 
 RUN apt-get update && apt-get upgrade -y && apt-get autoremove -y && apt-get clean -qqy
 

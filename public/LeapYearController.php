@@ -1,6 +1,6 @@
 <?php
 
-use Symfony\Component\HttpFoundation\Response;
+namespace App;
 
 class LeapYearController
 {
